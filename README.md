@@ -8,6 +8,6 @@ This script downloads the newest group of games from www.theweekinchess.com and 
 It also keeps a copy of each week's games in a seperate folder. These aren't needed for the database to function but may be of interest. They also provide evidence of which weeks have been downloaded.
 
 
-By default, twic-update uses a the directory ~/Chess, a database called Database, and drops pgns into the directory ~/Chess/TWIC. These must exist for the script to function. They can be changed by editing lines 3-6 in twic_update.sh
+By default, twic-update uses the directory ~/Chess, a database called Database, and drops pgns into the directory ~/Chess/TWIC. These must exist for the script to function. They can be changed by editing lines 3-6 in twic_update.sh
 
 twic_update requires curl and (obviously) scid.
