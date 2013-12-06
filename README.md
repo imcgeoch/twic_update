@@ -10,7 +10,7 @@ It also keeps a copy of each week's games in a seperate folder. These aren't nee
  
 Also included is twic_update_all, which does the same thing but for every file from issue 920 (appearantly the oldest available as of December 2013) to the most recent.  
 
-twic_update uses the directory ~/Chess, a database called Database, and drops pgns into the directory ~/Chess/TWIC. These must exist for the script to function. If desired, they can be changed to point to point to a pre-existing database by editing lines 3-6 in twic_update.sh
+By default, twic_update uses the directory ~/Chess, a database called Database, and drops pgns into the directory ~/Chess/TWIC. These must exist for the script to function. They can be changed by editing lines 3-6 in twic_update.sh
 
 twic_update requires curl and (obviously) scid.
 
